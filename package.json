@@ -4,7 +4,7 @@
   "description": "Returns image search information",
   "main": "app.js",
   "engines": {
-    "node": "7.4.0"
+    "node": "7.0.0"
   },
   "scripts": {
     "start": "node app.js",
