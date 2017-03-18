@@ -6,8 +6,7 @@ if (process.env.NODE_ENV !== 'production') {
 const express = require('express'),
       app = express(),
       port = process.env.PORT || 3000; //Use assigned port; otherwise use port 3000
-      // uri = process.env.MONGOLAB_URI || 'mongodb://heroku_8jf2hfw0@ds127928.mlab.com:27928/heroku_8jf2hfw0'; //process.env.MONGOLAB_URI is for Heroku
-
+      
 const db = require('./config/db'); //database connection settings
 
 app.set('view engine', 'ejs');
